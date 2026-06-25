@@ -1,28 +1,22 @@
-\# SUST CSE Carnival 2026 - QueueStorm Warmup
+# QueueStorm Warmup Solution
 
-
-
-\## Run Locally
-
-
+## Run Locally
 
 npm install
+node index.js
 
-node server.js
-
-
-
-\## Health Check
-
-
+## Endpoints
 
 GET /health
-
-
-
-\## Ticket Classification
-
-
-
 POST /sort-ticket
 
+## Sample Request
+
+{
+  "ticket_id": "T-001",
+  "message": "Someone called asking for my OTP"
+}
+
+## Deployment
+
+Render
